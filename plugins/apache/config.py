@@ -5,7 +5,7 @@ from main_single import *
 
 class GeneralConfig(ModuleConfig):
     target = ApacheBackend
-    platform = ['debian', 'arch']
+    platform = ['debian', 'arch', 'gnu/kfreebsd']
     
     labels = {
         'cfg_dir': 'Configuration directory'

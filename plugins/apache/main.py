@@ -8,7 +8,7 @@ from ajenti import apis
 
 class ApacheBackend(Plugin):
     implements(IConfigurable)
-    platform = ['debian', 'arch']
+    platform = ['debian', 'arch', 'gnu/kfreebsd']
     config_dir = ''
     name = 'Apache'
     id = 'apache'
@@ -122,7 +122,7 @@ class ApacheBackend(Plugin):
 """
                        
 class ApachePlugin(apis.webserver.WebserverPlugin):
-    platform = ['debian', 'arch']
+    platform = ['debian', 'arch', 'gnu/kfreebsd']
     text = 'Apache 2'
     icon = '/dl/apache/icon.png'
     folder = 'servers'

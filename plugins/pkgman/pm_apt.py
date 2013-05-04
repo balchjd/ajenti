@@ -8,7 +8,7 @@ from ajenti import apis
 
 class APTPackageManager(Plugin):
     implements(apis.pkgman.IPackageManager)
-    platform = ['debian']
+    platform = ['debian', 'gnu/kfreebsd']
 
     _pending = {}
 

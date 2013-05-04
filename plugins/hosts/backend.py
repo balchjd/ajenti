@@ -71,7 +71,7 @@ class IHostnameManager(Interface):
 
 class LinuxGenericHostnameManager(Plugin):
     implements(IHostnameManager)
-    platform = ['debian']
+    platform = ['debian', 'gnu/kfreebsd']
 
     def gethostname(self):
         return open('/etc/hostname').read()

@@ -1,7 +1,7 @@
 MODULES = ['api', 'main', 'component', 'pm_apt', 'pm_pacman', 'pm_portage', 'pm_ports',  'pm_yum']
 
 DEPS =  [
-    (['debian'],
+    (['debian', 'gnu/kfreebsd'],
      [
         ('app', 'dpkg', 'dpkg')
      ]),
@@ -24,7 +24,7 @@ DEPS =  [
 ]
 
 NAME = 'Package manager'
-PLATFORMS = ['debian', 'arch', 'freebsd', 'centos', 'fedora', 'gentoo']
+PLATFORMS = ['debian', 'arch', 'freebsd', 'centos', 'fedora', 'gentoo', 'gnu/kfreebsd']
 DESCRIPTION = 'Manage software packages'
 VERSION = '2'
 GENERATION = 1

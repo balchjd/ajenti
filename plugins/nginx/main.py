@@ -8,7 +8,7 @@ from ajenti import apis
 
 class NginxBackend(Plugin):
     implements(IConfigurable)
-    platform = ['debian']
+    platform = ['debian', 'gnu/kfreebsd']
     config_dir = ''
     name = 'nginx'
     id = 'nginx'

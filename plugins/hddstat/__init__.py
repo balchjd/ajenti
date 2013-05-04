@@ -3,7 +3,7 @@ MODULES = ['widget']
 DEPS= []
 
 NAME = 'HDD Usage Status'
-PLATFORMS = ['debian', 'arch', 'freebsd', 'centos', 'fedora', 'gentoo', 'mandriva']
+PLATFORMS = ['debian', 'arch', 'freebsd', 'centos', 'fedora', 'gentoo', 'mandriva', 'gnu/kfreebsd']
 DESCRIPTION = 'Monitors the usage of the HDD'
 VERSION = '1'
 GENERATION = 1

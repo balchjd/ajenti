@@ -6,7 +6,7 @@ class DebianNetworkCfg(Plugin):
     implements(IConfigurable)
     name = 'Network'
     id = 'network'
-    platform = ['Debian', 'Ubuntu']
+    platform = ['Debian', 'Ubuntu', 'gnu/kfreebsd']
     
     def list_files(self):
         dir = '/etc/network/'

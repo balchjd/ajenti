@@ -25,7 +25,7 @@ DEPS =  [(['freebsd'],
      ])]
 
 NAME = 'Network'
-PLATFORMS = ['arch', 'centos', 'debian', 'fedora', 'freebsd', 'mandriva']
+PLATFORMS = ['arch', 'centos', 'debian', 'fedora', 'freebsd', 'mandriva', 'gnu/kfreebsd']
 DESCRIPTION = 'Network interfaces management'
 VERSION = '3'
 GENERATION = 1

@@ -8,7 +8,7 @@ DEPS =  [
 ]
 
 NAME = 'CPU Load Cores'
-PLATFORMS = ['debian', 'arch', 'freebsd', 'centos', 'fedora', 'gentoo']
+PLATFORMS = ['debian', 'arch', 'freebsd', 'centos', 'fedora', 'gentoo', 'gnu/kfreebsd']
 DESCRIPTION = 'CPU load cores usage widgets for dashboard'
 VERSION = '1.0.0'
 GENERATION = 1

@@ -8,7 +8,7 @@ from nctp_linux import *
 
 class DebianNetworkConfig(LinuxIfconfig):
     implements(INetworkConfig)
-    platform = ['Debian', 'Ubuntu']
+    platform = ['Debian', 'Ubuntu', 'gnu/kfreebsd']
     
     interfaces = None
 

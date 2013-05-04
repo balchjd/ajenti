@@ -14,7 +14,7 @@ DEPS =  [
 ]
 
 NAME = 'Apache'
-PLATFORMS = ['centos', 'arch', 'freebsd', 'debian', 'mandriva']
+PLATFORMS = ['centos', 'arch', 'freebsd', 'debian', 'mandriva', 'gnu/kfreebsd']
 DESCRIPTION = 'Apache webserver control plugin'
 VERSION = '1'
 GENERATION = 1
